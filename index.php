@@ -11,7 +11,7 @@ include 'include/header.php';
 
             <div class="hero-overlay">
                 <div class="hero-content">
-                    <h1>SELAMAT DATANG!!!</h1>
+                    <h1>SELAMAT DATANG USER</h1>
                     <h2>DI WEBSITE RESMI MULTIMEDIA</h2>
                     <p>Program Studi Pendidikan Teknologi Informatika dan Komputer</p>
                 </div>
