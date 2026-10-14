@@ -7,7 +7,7 @@ if (!isset($active_page)) { $active_page = ''; }
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>LAB MULTIMEDIA PTIK</title>
-    <link rel="stylesheet" href="asset/css/style.css">
+    <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
@@ -15,7 +15,7 @@ if (!isset($active_page)) { $active_page = ''; }
 <header class="navbar">
     <div class="nav-container">
         <a href="index.php" class="logo">
-            <img src="asset/img/Logo_LAB.png" alt="Logo LAB" onerror="this.style.display='none'">
+            <img src="assets/img/logo.png" alt="Logo LAB" onerror="this.style.display='none'">
         </a>
         <button class="menu-toggle" id="menuToggle" aria-label="Buka Menu">
             <i class="fa-solid fa-bars"></i>
@@ -30,9 +30,17 @@ if (!isset($active_page)) { $active_page = ''; }
             </ul>
 
             <form action="postingan.php" method="GET" class="search-form">
-                <input type="text" name="q" placeholder="Search..." required>
-                <button type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+                <input
+                    type="search"
+                    name="q"
+                    placeholder="Cari postingan..."
+                    value="<?= htmlspecialchars($_GET['q'] ?? '', ENT_QUOTES, 'UTF-8'); ?>"
+                    aria-label="Cari postingan berdasarkan judul atau deskripsi">
+                <button type="submit" aria-label="Cari">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </button>
             </form>
+
         </div>
     </div>
 </header>

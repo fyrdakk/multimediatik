@@ -1,0 +1,119 @@
+
+/* LOGIN ADMIN */
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: #f5f8f5;
+}
+
+.login-page {
+    min-height: 100vh;
+    padding: 20px;
+    background: linear-gradient(135deg, #e0f1e6, #f5f8f5);
+}
+
+.login-card {
+    width: 100%;
+    max-width: 430px;
+    background: #ffffff;
+    border: 1px solid #dce9df;
+    border-top: 5px solid var(--secondary, #13c675);
+    border-radius: 16px;
+    box-shadow: 0 10px 30px rgba(4, 114, 68, 0.12);
+}
+
+.login-card .card-body {
+    padding: 38px !important;
+}
+
+.login-title {
+    color: var(--primary, #047244);
+    font-size: 30px;
+}
+
+.login-divider {
+    width: 55px;
+    height: 4px;
+    background: var(--secondary, #13c675);
+    border: none;
+    border-radius: 10px;
+    opacity: 1;
+}
+
+.login-card .form-control {
+    padding: 13px 15px;
+    background: #f8faf8;
+    border: 1px solid #d5e1d8;
+    border-radius: 8px;
+}
+
+.login-card .form-control:focus {
+    background: #ffffff;
+    border-color: var(--primary, #047244);
+    box-shadow: 0 0 0 3px rgba(4, 114, 68, 0.12);
+}
+
+.btn-login {
+    padding: 13px;
+    color: #ffffff;
+    background: var(--primary, #047244);
+    border: none;
+    border-radius: 8px;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+.btn-login:hover {
+    color: #ffffff;
+    background: var(--secondary, #13c675);
+}
+
+.back-link {
+    color: var(--primary, #047244);
+    font-size: 13px;
+    text-decoration: none;
+}
+
+.back-link:hover {
+    color: var(--secondary, #13c675);
+    text-decoration: underline;
+}
+
+/* Ikon mata password */
+.password-wrapper {
+    position: relative;
+}
+
+.password-wrapper .form-control {
+    padding-right: 45px;
+}
+
+.toggle-password {
+    position: absolute;
+    top: 50%;
+    right: 12px;
+    transform: translateY(-50%);
+    background: transparent;
+    border: none;
+    color: var(--primary, #047244);
+    cursor: pointer;
+}
+
+/* Responsif */
+@media (max-width: 768px) {
+    .login-page {
+        padding: 16px;
+    }
+
+    .login-card {
+        max-width: 380px;
+    }
+
+    .login-card .card-body {
+        padding: 28px 24px !important;
+    }
+
+    .login-title {
+        font-size: 25px;
+    }
+}

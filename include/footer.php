@@ -18,7 +18,7 @@
                     <i class="fa-brands fa-tiktok"></i>
                     <span>@multimedia.ptik_ft</span>
                 </a>
-                <a href="https://youtube.com" target="_blank" class="social-item" title="YouTube Resmi">
+                <a href="https://youtube.com/@multimediatik-ft?si=nW4GDy28_P1RZUwZ" target="_blank" class="social-item" title="YouTube Resmi">
                     <i class="fa-brands fa-youtube"></i>
                     <span>MULTIMEDIATIK-FT</span>
                 </a>
@@ -27,6 +27,6 @@
     </div>
 </footer>
 
-<script src="asset/js/main.js"></script>
+<script src="assets/js/main.js"></script>
 </body>
 </html>

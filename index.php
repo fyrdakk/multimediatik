@@ -5,35 +5,23 @@ include 'include/header.php';
 
 <section class="home-section">
     <div class="container">
-        <div class="slider-container">
-            <div class="slider" id="slider">
-                <div class="slide active">
-                    <img src="asset/img/podcast.jpeg" alt="Podcast Room">
-                    <div class="slide-caption">Podcast Room</div>
-                </div>
-                <div class="slide">
-                    <img src="asset/img/control_room.jpeg" alt="Control Room">
-                    <div class="slide-caption">Control Room</div>
-                </div>
-                <div class="slide">
-                    <img src="asset/img/studio_photo.jpeg" alt="Studio Photo">
-                    <div class="slide-caption">Studio Photo</div>
-                </div>
-                <div class="slide">
-                    <img src="asset/img/leader_room.jpeg" alt="LAB Head's Room">
-                    <div class="slide-caption">LAB Head's Room</div>
+
+        <div class="hero-container">
+            <img src="assets/img/podcast.webp" alt="Multimedia PTIK">
+
+            <div class="hero-overlay">
+                <div class="hero-content">
+                    <h1>SELAMAT DATANG!!!</h1>
+                    <h2>DI WEBSITE RESMI MULTIMEDIA</h2>
+                    <p>Program Studi Pendidikan Teknologi Informatika dan Komputer</p>
                 </div>
             </div>
-
-            <button class="slider-btn prev" id="prevBtn"><i class="fa-solid fa-chevron-left"></i></button>
-            <button class="slider-btn next" id="nextBtn"><i class="fa-solid fa-chevron-right"></i></button>
-
-            <div class="slider-dots" id="sliderDots"></div>
         </div>
 
         <div class="rules-section">
             <h2>TATA TERTIB PENGGUNAAN LAB MULTIMEDIA PTIK</h2>
             <hr class="divider">
+
             <ul class="rules-list">
                 <li><i class="fa-solid fa-check-circle"></i> Tata tertib berlaku bagi semua pengguna Laboratorium termasuk dosen dan mahasiswa.</li>
                 <li><i class="fa-solid fa-check-circle"></i> Pengguna yang meminjam peralatan Laboratorium harus memenuhi ketentuan peminjaman dan pengembalian.</li>
@@ -55,6 +43,7 @@ include 'include/header.php';
                 <li><i class="fa-solid fa-check-circle"></i> Petugas Laboratorium Komputer tidak bertanggungjawab atas kehilangan barang-barang pribadi pengguna selama berada di Laboratorium Komputer.</li>
             </ul>
         </div>
+
     </div>
 </section>
 
